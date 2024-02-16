@@ -1,0 +1,424 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(57, 25, 61);
+    font-family: 'Kanit', sans-serif;
+}
+
+header {
+    position: relative;
+    align-items: center;
+    background-color: rgb(240, 217, 243);
+    height: 55px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+   display: flex;
+   align-items: center;
+   width: 100%;
+}
+
+img {
+    width: 140px;
+    height: auto;
+    padding-left: 15px;
+}
+
+nav .left { 
+    color: whitesmoke;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin-left: 600px;
+}
+
+nav li {
+    margin-right: 20px;
+    flex: right;
+    font-family: 'Kanit', sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(3, 4, 5);
+    font-size: 1rem;
+}
+
+nav a:hover {
+    color: rgb(57, 25, 61);
+    font-size: 1.1rem;
+}
+
+.home {
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-section h1 {
+    color: whitesmoke;
+    padding-left: 430px;
+    padding-top: 125px;
+}
+
+.left-section h2 {
+    color: whitesmoke;
+    padding-left: 375px;
+    padding-top: 10px;
+}
+
+.left-section h3 {
+    color: whitesmoke;
+    padding-left: 350px;
+    padding-top: 14px;
+}
+
+.right-section img {
+    width: 350px;
+    height: 350px;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+
+.highlight {
+    color: rgb(215, 95, 231);
+}
+
+button{
+    color: black;
+    text-decoration: none;
+    height: 40px;
+    width: 130px;
+    background-color: rgb(215, 95, 231);
+    border-radius: 30px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 25px;
+    box-shadow: 0px 0px 0px 1px rgb(215, 95, 231);
+}
+
+.resume_button{
+    padding-left: 420px;
+}
+
+button:hover {
+    background-color:rgb(184, 169, 185);
+}
+
+/* Languages Section */
+
+#typewriter {
+   color: rgb(215, 95, 231);
+   font-weight: bold;
+}
+
+slogan {
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+ 
+ slogan {
+     text-align: center;
+     color: white;
+     padding: 50px;
+ }
+
+languages {
+    text-align: center;
+    padding: 50px;
+    color: rgb(215, 95, 231);   
+}
+
+.c {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    padding-left: 125px;
+}
+
+.c img {
+    height: 115px;
+    width: 115px;;
+}
+
+.c p {
+    color: white;
+    padding-left: 35px;
+}
+
+.cpp {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    padding-left: 60px;
+}
+
+.cpp img {
+    height: 120px;
+    width: 160px;
+}
+
+
+.cpp p {
+    color: white;
+    padding-left: 35px;
+}
+
+.java {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    padding-left: 60px;
+}
+
+.java img {
+    height: 115px;
+    width: 115px;
+}
+
+.java p {
+    color: white;
+    padding-left: 45px;
+}
+
+.python {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    padding-left: 60px;
+}
+
+.python img {
+    height: 115px;
+    width: 155px;
+}
+
+.python p { 
+    color: white;
+    padding-left: 35px;
+}
+/* Web Development Section */
+
+web {
+    text-align: center;
+    padding: 50px;
+    color: rgb(215, 95, 231);   
+}
+
+.html {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    padding-left: 125px;
+}
+
+.html img {
+    height: 115px;
+    width: 115px;
+}
+
+.html p {
+    color: white;
+    padding-left: 35px;
+}
+
+.css {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    padding-left: 60px;
+}
+
+.css img {
+    height: 115px;
+    width: 115px;
+}
+
+.css p {
+    color: white;
+    padding-left: 35px;
+}
+
+.javascript {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    padding-left: 60px;
+}
+
+.javascript img {
+    height: 115px;
+    width: 115px;
+}
+
+.javascript p {
+    color: white;
+    padding-left: 35px;
+}
+
+.bootstrap {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    padding-left: 60px;
+}
+
+.bootstrap img {
+    height: 115px;
+    width: 115px;
+}
+
+.bootstrap p {
+    color: white;
+    padding-left: 35px;
+}
+
+.angular {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    padding-left: 125px;
+}
+
+.angular img {
+    height: 115px;
+    width: 115px;
+}
+
+.angular p {
+    color: white;
+    padding-left: 35px;
+}
+
+.react {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    padding-left: 60px;
+}
+
+.react img {
+    height: 115px;
+    width: 115px;
+}
+
+.react p {
+    color: white;
+    padding-left: 35px;
+}
+
+.node {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    padding-left: 60px;
+}
+
+.node img {
+    height: 115px;
+    width: 115px;
+}
+
+.node p {
+    color: white;
+    padding-left: 35px;
+}
+
+.jquery {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    padding-left: 60px;
+}
+
+.jquery img {
+    height: 115px;
+    width: 115px;
+}
+
+.jquery p {
+    color: white;
+    padding-left: 35px;
+}
+
+/* app Development Section */
+
+app {
+    text-align: center;
+    padding: 50px;
+    color: rgb(215, 95, 231);   
+}
+
+.flutter {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    padding-left: 0px;
+    padding-top: 30px;
+}
+
+.flutter img {
+    height: 130px;
+    width: 130px;
+}
+
+.flutter p {
+    color: white;
+    padding-left: 35px;
+}
+
+.dart {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+.dart img {
+    height: 115px;
+    width: 115px;
+}
+
+.dart p {
+    color: white;
+    padding-left: 35px;
+}
+
+/* Contact-form */
+
+left-part{
+    float: left;
+}
+
+right-part{
+    float: right;
+}
+
+.contact-box{
+    background: #f1f1f1;
+    float: right;
+    height: 250px;
+    width:250px;
+    margin-top: 50px;
+    margin-right: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #000;
+}
+
+h2{
+    color:white;
+    padding: 50px;
+}
